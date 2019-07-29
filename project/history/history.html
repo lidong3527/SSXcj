@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>历史典故</title>
+    <link rel="stylesheet" href="../../util/base.css">
+    <style>
+        body{
+            margin: 0;
+        }
+        .history_body{
+            /*background:red;*/
+            /*width: 100px;*/
+            /*height: 100px;*/
+            background: url('../../imgs/history_bg.png') no-repeat;
+            background-size:100% 100%;
+            padding: 0 275px;
+            font-size: 20px;
+            position: relative;
+            margin-top: 20px;
+            /*padding-bottom: 50px;*/
+        }
+        .history_img{
+            width: 440px;
+            height: 250px;
+            float: right;
+            margin: 10px 20px 5px 10px;
+        }
+        .history_title{
+            position: absolute;
+            top: 65px;
+            left: 150px;
+            color: rgb(177,129,124);
+        }
+        .history_title_left{
+            position: absolute;
+            top: 166px;
+            left: 25px;
+            transform: rotate(90deg);
+            color: rgb(177,129,124);
+        }
+
+        .history_text{
+            line-height: 50px;
+            color: rgb(89,89,89);
+        }
+        .history_body{
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+<div class="history_body">
+    <div class="history_title">历<br/>史<br/>典<br/>故</div>
+    <div class="history_title_left">HISTORICALALLUSION</div>
+    <div class="history_text">
+        <img class="history_img" src="../../imgs/history_img.jpg" alt="">
+        1897年朱济世仙逝，其爱徒宋文彦重回家乡，其从小跟师学医，医学药典，古方奇方，烂熟于心。他以其独特的医术深刻钻研，在白灵丹原有的药材上，细心、耐心，经过不断地实验，终于研制出一套完美的“白灵丹”药方。以其妙手仁心在十里八乡备受爱戴，因其排行为七，故人称七爷。
+
+        白灵丹主要功效，治愈烧伤、炮伤、电烧伤、化学伤等，愈合后不留疤痕，并且不怕感染，药物有抑制细菌微生物生长的效果，细菌微生物很难在其中滋生，从而保障了创面的无菌生长环境；1898年，一代神医宋文彦仙逝，将其穷尽一生钻研出的白灵丹湿润烧伤膏传承了下去。他曾说：“但愿世间人无事，哪怕架上药生尘”；这是一位医者对百姓的仁爱之心，也是对自己的期望，希望自己可以可以医尽天下人，惟愿世人百姓安康。白灵丹经历了百年历史的见证，其医治患者不下数10万人，其去腐生肌、消炎止疼、杀菌、促进创面愈合、治愈后不留疤痕的效果被广大患者啧啧称奇。现在其医术传承人名声享誉陕西咸阳，在当地乃至周边地区也是人尽皆知。
+
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="../../util/util.js"></script>
+<script type="text/javascript" src="../../util/jquery.js"></script>
+<script type="text/javascript">
+    var height = getScrollHeight();
+    console.log(height,'height');
+    $('.history_body').css({height:height+'px'});
+</script>
+</html>
