@@ -199,7 +199,7 @@ $(document).ready(function(){
     //锚点添加动画
     $(".label").bind("click touch",function(){
         //根据a标签的href转换为id选择器，获取id元素所处的位置，并高度减50px（这里根据需要自由设置）
-        $('html,body').animate({scrollTop: ($($(this).attr('href')).offset().top -50 )},500);
+        $('html,body').animate({scrollTop: ($($(this).attr('href')).offset().top)},500);
     });
 
     $('.nav li').click(function(event){
