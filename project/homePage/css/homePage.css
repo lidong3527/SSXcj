@@ -50,10 +50,10 @@ body{
 }
 .bg_icon1{
     position: absolute;
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     right: 105px;
-    bottom: 0;
+    bottom: -10px;
 }
 .bg_icon3{
     position: absolute;
@@ -82,6 +82,13 @@ body{
     transition-property: height;
     /*justify-content: center;*/
 }
+.nav .span_li_hover:hover{
+    background: #000;
+}
+.nav span{
+    transition: 0.5s;
+    transition-property: background;
+}
 .nav span a{
     padding: 10px 20px;
     color: rgb(180,180,180);
@@ -91,22 +98,27 @@ body{
     margin-right: 50px;
 }
 .nav_end_span:hover .dropdown_menu{
-    background: yellow;
+    background: rgb(51, 51, 51);
     height: 90px;
 }
 .nav_end_span{
     position: relative;
 
 }
+
 .dropdown_menu{
     position: absolute;
     top: 65px;
     left: 0;
-    background: red;
+    background: rgb(0, 0, 0);
     line-height: 45px;
     transition: 0.5s;
     height: 0px;
     overflow: hidden;
+    color: rgb(204, 153, 102);
+}
+.about_us_hover:hover{
+    background: #000;
 }
 .topBox{
     height: 60px;
@@ -239,26 +251,28 @@ body{
     font-size: 23px;
     /*color: #57ede1;*/
     font-weight: bold;
-    background: url('../../../imgs/tip_image.png');
+    /*background: url('../../../imgs/tip_image.png');*/
     background-size: 100% 100%;
+    position: relative;
     /*font-family: Calibri;*/
 }
+
 .introduce_tip:before,.case_tip:before,.buy_tip:before,.tel_tip:before,.about_us_tip:before{
     content: "";
-    width: 50px;
+    width: 43%;
     /*height: 50px;*/
     display: inline-block;
-    border-bottom: 2px solid black;
+    border-bottom: 5px solid black;
     margin-bottom: 5px;
     margin-right: 8px;
 }
 .introduce_tip:after,.case_tip:after,.buy_tip:after,.tel_tip:after,.about_us_tip:after{
     content: "";
-    width: 50px;
+    width: 43%;
     /*height: 50px;*/
     background: red;
     display: inline-block;
-    border-bottom: 2px solid black;
+    border-bottom: 5px solid black;
     line-height: 80px;
     margin-bottom: 5px;
     margin-left: 8px;

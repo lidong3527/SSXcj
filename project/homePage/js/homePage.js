@@ -1,25 +1,12 @@
 $(document).ready(function(){
 
     getScrollTop();
-    if($(window)[0].pageYOffset < 100){
-        $('.nav').css({
-            'justify-content': 'flex-end',
-            height:'100px','line-height':'100px',
-            background:'transparent',
-            'flex-direction':'row',
-            width:'100%',
-            transform:'translateY(0)',
-            top:0,
-            right:0
-        })
-        $('.nav span a').css({color:'rgb(180,180,180)'});
-        $('.nav_end').css({'margin-right': '50px'});
-    }
+
     $(window).on('scroll',function(event){
        console.log(event.currentTarget.pageYOffset);
        let scrollTop = event.currentTarget.pageYOffset;
        if(scrollTop >= 100){
-
+           $('.span_li').addClass('span_li_hover');
            $('.nav').css({
                position:'fixed',
                top:'50px',
@@ -34,8 +21,10 @@ $(document).ready(function(){
            });
            $('.nav span a').css({color:'#CC9966'});
            $('.nav_end').css({margin:0});
+           $('.dropdown_menu').css({top: '50px'});
        }
        if(scrollTop < 100){
+           $('.span_li').removeClass('span_li_hover');
            $('.nav').css({
                'justify-content': 'flex-end',
                height:'100px','line-height':'100px',
@@ -48,6 +37,7 @@ $(document).ready(function(){
            })
            $('.nav span a').css({color:'rgb(180,180,180)'});
            $('.nav_end').css({'margin-right': '50px'});
+           $('.dropdown_menu').css({top: '65px'});
 
        }
     });
@@ -261,6 +251,23 @@ $(document).ready(function(){
             });
             $('.nav span a').css({color:'#CC9966'});
             $('.nav_end').css({margin:0});
+            $('.dropdown_menu').css({top: '50px'});
+        }
+        if($(window)[0].pageYOffset < 100){
+            $('.nav').css({
+                'justify-content': 'flex-end',
+                height:'100px','line-height':'100px',
+                background:'transparent',
+                'flex-direction':'row',
+                width:'100%',
+                transform:'translateY(0)',
+                top:0,
+                right:0
+            });
+            $('.nav span a').css({color:'rgb(180,180,180)'});
+            $('.nav_end').css({'margin-right': '50px'});
+            $('.span_li').removeClass('span_li_hover');
+            $('.dropdown_menu').css({top: '65px'});
         }
     }
 
