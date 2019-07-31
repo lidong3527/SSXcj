@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1e2dd55e-4b0e-4a28-afda-e53bb5d33ea9" name="默认的" comment="">
       <change beforePath="$PROJECT_DIR$/project/homePage/css/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/css/homePage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/homePage/js/homePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/js/homePage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,16 +24,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="15" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="15" />
+            <state relative-caret-position="249">
+              <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/homePage/js/homePage.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
@@ -50,8 +49,8 @@
       <find>.dro</find>
       <find>introduce_tip</find>
       <find>index</find>
-      <find>.index</find>
       <find>introduce_body</find>
+      <find>.index</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,8 +60,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/project/homePage/homePage.html" />
-        <option value="$PROJECT_DIR$/project/homePage/css/homePage.css" />
         <option value="$PROJECT_DIR$/project/homePage/js/homePage.js" />
+        <option value="$PROJECT_DIR$/project/homePage/css/homePage.css" />
       </list>
     </option>
   </component>
@@ -176,12 +175,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564406960381</updated>
       <workItem from="1564406962011" duration="2291000" />
-      <workItem from="1564552938089" duration="3677000" />
+      <workItem from="1564552938089" duration="3814000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5968000" />
+    <option name="totallyTimeSpent" value="6105000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -219,13 +218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -237,6 +229,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="45" column="52" lean-forward="true" selection-start-line="45" selection-start-column="52" selection-end-line="45" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
         </state>
       </provider>
     </entry>
