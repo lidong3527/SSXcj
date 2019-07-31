@@ -44,7 +44,7 @@ $(document).ready(function(){
 
     var height = getClientHeight();
     $('.introduce_body').css({height: height+'px'});
-    // $('.index').css({height:height+'px'});
+    $('.index').css({height:height+'px'});
     // console.log(height,'height');
     //切换图片下标
     var caseIndex = 0;
