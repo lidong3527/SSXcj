@@ -45,6 +45,7 @@ $(document).ready(function(){
     var height = getClientHeight();
     $('.introduce_body').css({height: height+'px'});
     $('.index').css({height:height+'px'});
+    $('.case_box ').css({height: height+'px'});
     // console.log(height,'height');
     //切换图片下标
     var caseIndex = 0;
@@ -169,11 +170,10 @@ $(document).ready(function(){
     }
     $('#container').append(str);
     $('#container').marquee();
-    console.log(123);
-    timePic = setInterval(function(){
-        $(".case_right").click();
-        console.log(123);
-    },2000);
+    // timePic = setInterval(function(){
+    //     $(".case_right").click();
+    //     console.log(123);
+    // },2000);
 
 
     //点击图片切换

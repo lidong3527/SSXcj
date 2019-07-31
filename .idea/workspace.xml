@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2dd55e-4b0e-4a28-afda-e53bb5d33ea9" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/project/history/history.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/history/history.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/innovate/innovate.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/innovate/innovate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/homePage/css/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/css/homePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/homePage/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/homePage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/homePage/js/homePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/js/homePage.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,22 +20,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="117" column="47" lean-forward="true" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
+            <state relative-caret-position="154">
+              <caret line="191" column="31" lean-forward="true" selection-start-line="191" selection-start-column="31" selection-end-line="191" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/history/history.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="45" column="12" selection-start-line="45" selection-start-column="12" selection-end-line="48" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/innovate/innovate.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="380">
@@ -46,17 +38,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+            <state relative-caret-position="230">
+              <caret line="338" column="13" selection-start-line="338" selection-start-column="11" selection-end-line="338" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/homePage/js/homePage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="201" column="80" selection-start-line="201" selection-start-column="80" selection-end-line="201" selection-end-column="80" />
+            <state relative-caret-position="192">
+              <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="175" selection-end-column="15" />
               <folding>
                 <element signature="e#2687#4462#0" />
               </folding>
@@ -74,6 +66,7 @@
       <find>introduce_body</find>
       <find>bg_icon3</find>
       <find>.index</find>
+      <find>case_left</find>
       <find>introduce</find>
     </findStrings>
   </component>
@@ -83,11 +76,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/homePage/css/homePage.css" />
-        <option value="$PROJECT_DIR$/project/homePage/homePage.html" />
-        <option value="$PROJECT_DIR$/project/homePage/js/homePage.js" />
         <option value="$PROJECT_DIR$/project/history/history.html" />
         <option value="$PROJECT_DIR$/project/innovate/innovate.html" />
+        <option value="$PROJECT_DIR$/project/homePage/homePage.html" />
+        <option value="$PROJECT_DIR$/project/homePage/css/homePage.css" />
+        <option value="$PROJECT_DIR$/project/homePage/js/homePage.js" />
       </list>
     </option>
   </component>
@@ -208,12 +201,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564406960381</updated>
       <workItem from="1564406962011" duration="2291000" />
-      <workItem from="1564552938089" duration="5244000" />
+      <workItem from="1564552938089" duration="6132000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7535000" />
+    <option name="totallyTimeSpent" value="8423000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -244,27 +237,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
+    <entry file="file://$PROJECT_DIR$/project/innovate/innovate.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/homePage/js/homePage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="201" column="80" selection-start-line="201" selection-start-column="80" selection-end-line="201" selection-end-column="80" />
-          <folding>
-            <element signature="e#2687#4462#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="117" column="47" lean-forward="true" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
+        <state relative-caret-position="380">
+          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -275,10 +251,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/innovate/innovate.html">
+    <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="38" column="23" lean-forward="true" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+        <state relative-caret-position="230">
+          <caret line="338" column="13" selection-start-line="338" selection-start-column="11" selection-end-line="338" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="191" column="31" lean-forward="true" selection-start-line="191" selection-start-column="31" selection-end-line="191" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/homePage/js/homePage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="172" column="29" selection-start-line="172" selection-start-column="29" selection-end-line="175" selection-end-column="15" />
+          <folding>
+            <element signature="e#2687#4462#0" />
+          </folding>
         </state>
       </provider>
     </entry>

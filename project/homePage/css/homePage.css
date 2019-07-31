@@ -337,14 +337,24 @@ body{
 }
 .case_left{
     width: 49%;
-    height: 500px;
+    height: 100%;
     /*background: red;*/
     display: inline-block;
     overflow: hidden;
 }
+.case_desc{
+    width:  80%;
+    /*background: red;*/
+    border: 2px solid #ccc;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    border-radius: 5px;
+}
 .case_right{
     width: 50%;
-    height: 500px;
+    height: 100%;
     /*background: yellow;*/
     display: inline-block;
     overflow: hidden;
