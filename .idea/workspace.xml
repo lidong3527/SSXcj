@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2dd55e-4b0e-4a28-afda-e53bb5d33ea9" name="默认的" comment="">
-      <change beforePath="$PROJECT_DIR$/project/homePage/css/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/css/homePage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/homePage/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/homePage.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -15,16 +15,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="117" column="30" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="30" />
+            <state relative-caret-position="230">
+              <caret line="117" column="47" lean-forward="true" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="249">
@@ -51,6 +51,8 @@
       <find>index</find>
       <find>introduce_body</find>
       <find>.index</find>
+      <find>bg_icon3</find>
+      <find>introduce</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,9 +61,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project/homePage/homePage.html" />
         <option value="$PROJECT_DIR$/project/homePage/js/homePage.js" />
         <option value="$PROJECT_DIR$/project/homePage/css/homePage.css" />
+        <option value="$PROJECT_DIR$/project/homePage/homePage.html" />
       </list>
     </option>
   </component>
@@ -175,12 +177,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564406960381</updated>
       <workItem from="1564406962011" duration="2291000" />
-      <workItem from="1564552938089" duration="3814000" />
+      <workItem from="1564552938089" duration="3985000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6105000" />
+    <option name="totallyTimeSpent" value="6276000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -218,13 +220,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="117" column="30" selection-start-line="117" selection-start-column="16" selection-end-line="117" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/homePage/js/homePage.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -236,6 +231,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
           <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="117" column="47" lean-forward="true" selection-start-line="117" selection-start-column="47" selection-end-line="117" selection-end-column="47" />
         </state>
       </provider>
     </entry>
