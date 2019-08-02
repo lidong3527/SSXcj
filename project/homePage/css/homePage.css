@@ -1,7 +1,24 @@
 body{
     margin: 0;
+    background:#f8f8f8;
     /*overflow: hidden;*/
-    /*overflow-x: hidden;*/
+    overflow-x: hidden;
+}
+.label{
+    position: relative;
+}
+.line_bottom{
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 0%;
+    height: 2px;
+    background: #c9c8c7;
+    transition: 0.2s;
+}
+.label:hover .line_bottom{
+    width: 80%;
 }
 .index{
     width: 100%;
@@ -256,26 +273,31 @@ body{
     position: relative;
     /*font-family: Calibri;*/
 }
-
-.introduce_tip:before,.case_tip:before,.buy_tip:before,.tel_tip:before,.about_us_tip:before{
-    content: "";
-    width: 43%;
-    /*height: 50px;*/
-    display: inline-block;
-    border-bottom: 5px solid black;
-    margin-bottom: 5px;
-    margin-right: 8px;
+.introduce_tip{
+    color: #484848;
+    letter-spacing: 8px;
+    height:  100px;
+    line-height: 100px;
 }
-.introduce_tip:after,.case_tip:after,.buy_tip:after,.tel_tip:after,.about_us_tip:after{
+.case_tip:before,.buy_tip:before,.tel_tip:before,.about_us_tip:before{
     content: "";
     width: 43%;
     /*height: 50px;*/
-    background: red;
     display: inline-block;
-    border-bottom: 5px solid black;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    margin-right: 50px;
+}
+.case_tip:after,.buy_tip:after,.tel_tip:after,.about_us_tip:after{
+    content: "";
+    width: 43%;
+    /*height: 50px;*/
+    /*background: red;*/
+    display: inline-block;
+    border-bottom: 1px solid black;
     line-height: 80px;
     margin-bottom: 5px;
-    margin-left: 8px;
+    margin-left: 50px;
 }
 .introduce_body{
     width: 100%;
