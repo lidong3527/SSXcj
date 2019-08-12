@@ -6,23 +6,6 @@ $(document).ready(function(){
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     //切换图片下标
     var caseIndex = 0;
     var timePic = null;
@@ -208,9 +191,29 @@ function searchOrder(phone){
 
 // 跳转在线订购商品详情页
 $('.toOnlineOrder').click(function(event){
-    console.log(event.currentTarget.dataset.id,'123123');
+    console.log(event.currentTarget.dataset.id,'商品id');
     window.open('../onlineOrder/onlineOrder.html?id='+event.currentTarget.dataset.id);
 });
+
+//提交加盟代理事件
+$('.tel_submit').click(function(){
+    console.log($('.tel_nameInput').val(),'姓名');
+    console.log($('.tel_phoneInput').val(),'电话');
+    console.log($('.tel_addressInput').val(),'代理区域');
+    var errTip = "";
+    errTip = $('.tel_nameInput').val() == ''?'姓名不能为空:':'' || $('.tel_phoneInput').val() == ''?'电话不能为空:':'' || $('.tel_addressInput').val() == ''?'代理区域不能为空:':'';
+    // console.log(errTip,'asdkl')
+    if(errTip == ''){
+        console.log('123');
+        errTip = isNotChineseChart($('.tel_phoneInput').val())?'提交成功':'手机号码不能为汉字';
+    }
+    alert(errTip);
+    //置空
+    $('.tel_nameInput').val('');
+    $('.tel_phoneInput').val('');
+    $('.tel_addressInput').val('');
+})
+
 
 // 跑马灯
 function maqureeInit(){

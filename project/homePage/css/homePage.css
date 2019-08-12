@@ -518,7 +518,7 @@ body {
 
 .buy_li {
     width: 230px;
-    height: 380px;
+    height: 430px;
     /*background: #000;*/
     /*overflow: hidden;*/
     flex-wrap: wrap;
@@ -528,10 +528,11 @@ body {
     background: white;
     cursor: pointer;
     position: relative;
+    box-shadow: 0px 0px 15px #ccc;
 }
 
 .buy_li:hover {
-    box-shadow: 0px 0px 15px #ccc;
+
 
 }
 
@@ -553,6 +554,26 @@ body {
 
 .buy_return {
     float: right;
+}
+.toOnlineOrder{
+    width: 70%;
+    height: 50px;
+    outline: none;
+    background: darkred;
+    box-shadow: none;
+    border: 1px solid #ccc;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content:center;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+.toOnlineOrder > span{
+
 }
 .buy_bottom{
     float: right;
@@ -607,26 +628,97 @@ body {
     text-indent: 0.5em;
 }
 
-
+.tel_container{
+    overflow: hidden;
+    height: 550px;
+}
 
 .tel_body {
     /*margin: 0 auto;*/
+    width: 30%;
+    height: calc(100% - 160px);
+    float: left;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #c9cabb;
+    /*transform: translateY(50%);*/
+}
+.tel_right{
+    width: 70%;
+    float: right;
+    overflow:hidden;
+    height: calc(100% - 160px);
+}
+.tel_right_img{
+    width: 100%;
+    height: 100%;
+    background: url("../../../imgs/tel_right.jpg") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 20px;
+
+}
+.tel_title{
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
+.tel_nameInput,.tel_phoneInput,.tel_addressInput{
+    margin-top: 10px;
+    border: 1px solid black;
+    background: #34352c;
+    width: 280px;
+    height: 40px;
+    border-radius: 15px;
+    outline: none;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+    padding: 0 20px;
+
+}
+.tel_nameInput:focus,.tel_phoneInput:focus,.tel_addressInput:focus{
+    /*background: red;*/
+    padding: 0 30px;
+}
+.tel_submit{
+    width: 250px;
+    background: darkred;
+    color: white;
+    margin: 20px auto;
+    outline: none;
+    border: 1px solid transparent;
+    height: 40px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    font-size: 18px;
+    letter-spacing: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
 .tel_body > div {
     margin-bottom: 20px;
+
 }
 
 .about_us_body {
     display: flex;
-    /*align-items:center;*/
-    /*justify-content:center;*/
-    padding: 0 260px;
 }
 
 .about_us_left {
-    width: 660px;
+    width: 45%;
     display: inline-block;
     padding: 0 20px;
 }
@@ -634,7 +726,8 @@ body {
 .about_us_right {
     margin-top: 30px;
     width: 50%;
-    display: inline-block;
+    flex: 1;
+    text-align: right;
 }
 
 .about_us_right > div {
@@ -644,20 +737,23 @@ body {
 
 .about_us_img {
     display: inline-block;
-    width: 150px;
-    height: 150px;
+    width: 400px;
+    height: 330px;
 }
 
 .about_us_title {
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
     margin-bottom: 10px;
 }
 
 .about_us_text {
     font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
+    font-size: 22px;
+    letter-spacing: 5px;
+    line-height: 45px;
+    margin-top: 50px;
+    text-indent: 2em;
 }
 
 
