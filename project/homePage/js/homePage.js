@@ -318,3 +318,19 @@ function maqureeInit(){
     //     console.log(123);
     // },2000);
 }
+
+
+//反转产品信息
+$('.toReverse').click(function(event){
+    console.log(event,'翻转按钮元素11122');
+    // console.log($(event.target).parent());
+    $(event.target).parent().css('transform','perspective(1500px) rotateY(180deg)')
+    console.log(1123);
+    // console.log($(event).parent().css({'transform':'perspective(1500px) rotateY(180deg)'}));
+});
+
+// 返回产品介绍
+
+$('.toReverse_back').click(function(event){
+    $(event.target).parent().parent().css('transform','perspective(1500px) rotateY(360deg)')
+});
