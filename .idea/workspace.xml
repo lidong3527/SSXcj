@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2dd55e-4b0e-4a28-afda-e53bb5d33ea9" name="默认的" comment="">
+      <change afterPath="$PROJECT_DIR$/imgs/icon_back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/seeTime.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/imgs/toBuy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/homePage/css/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/css/homePage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/homePage/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/homePage.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/homePage/js/homePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/js/homePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project/onlineOrder/onlineOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/onlineOrder/onlineOrder.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -18,41 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="239">
-              <caret line="341" column="53" selection-start-line="341" selection-start-column="39" selection-end-line="341" selection-end-column="53" />
-              <folding>
-                <element signature="e#10779#10785#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
+        <entry file="file://$PROJECT_DIR$/project/onlineOrder/onlineOrder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="331">
-              <caret line="614" column="21" selection-start-line="614" selection-start-column="21" selection-end-line="614" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project/homePage/js/homePage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="334" column="89" selection-start-line="334" selection-start-column="89" selection-end-line="334" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/util.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <state relative-caret-position="133">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -61,23 +35,15 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>introduce</find>
-      <find>set</find>
-      <find>.introduce_tip:before,</find>
-      <find>introduce_tip</find>
-      <find>label</find>
-      <find>case</find>
       <find>tip</find>
       <find>buy_container</find>
       <find>buy_body</find>
       <find>case_box</find>
       <find>buy_</find>
       <find>.bg_icon2</find>
-      <find>buy_list_bottom</find>
       <find>buy_tip</find>
       <find>buy_bottom</find>
       <find>tel</find>
-      <find>toOnlineOrder</find>
       <find>buy_return</find>
       <find>tel_container</find>
       <find>tel_body</find>
@@ -87,10 +53,18 @@
       <find>innovate_text</find>
       <find>tel_right_img</find>
       <find>浏览量</find>
-      <find>buy_li</find>
-      <find>buy_li_reverse</find>
-      <find>toOn</find>
       <find>产品参数</find>
+      <find>toOn</find>
+      <find>buy_desc</find>
+      <find>buy_list_bottom</find>
+      <find>buy_money</find>
+      <find>buy_data_box</find>
+      <find>toReverse_back</find>
+      <find>buy_li_reverse</find>
+      <find>toBuy</find>
+      <find>toOnlineOrder</find>
+      <find>icon</find>
+      <find>buy_li</find>
     </findStrings>
     <replaceStrings>
       <replace>查看详情</replace>
@@ -109,6 +83,7 @@
         <option value="$PROJECT_DIR$/project/homePage/js/homePage.js" />
         <option value="$PROJECT_DIR$/project/homePage/homePage.html" />
         <option value="$PROJECT_DIR$/project/homePage/css/homePage.css" />
+        <option value="$PROJECT_DIR$/project/onlineOrder/onlineOrder.html" />
       </list>
     </option>
   </component>
@@ -239,21 +214,21 @@
       <workItem from="1565374319320" duration="593000" />
       <workItem from="1565501722888" duration="613000" />
       <workItem from="1565614862516" duration="8004000" />
-      <workItem from="1565722446016" duration="4170000" />
+      <workItem from="1565722446016" duration="4958000" />
+      <workItem from="1565900212937" duration="5305000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35276000" />
+    <option name="totallyTimeSpent" value="41369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="找到" weight="0.32960895" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -265,8 +240,9 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="调试" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="调试" order="12" weight="0.32960895" />
+      <window_info anchor="bottom" id="找到" order="13" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -277,9 +253,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/util/webFont/webfont.svg" />
-    <entry file="file://$PROJECT_DIR$/project/onlineOrder/onlineOrder.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/innovate/innovate.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="779">
@@ -301,6 +274,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/imgs/iconArray.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/util/util.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -308,30 +284,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/imgs/iconArray.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/project/homePage/js/homePage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="334" column="89" selection-start-line="334" selection-start-column="89" selection-end-line="334" selection-end-column="89" />
+        <state relative-caret-position="431">
+          <caret line="331" column="9" lean-forward="true" selection-start-line="331" selection-start-column="9" selection-end-line="331" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="239">
-          <caret line="341" column="53" selection-start-line="341" selection-start-column="39" selection-end-line="341" selection-end-column="53" />
-          <folding>
-            <element signature="e#10779#10785#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="160">
+          <caret line="231" selection-start-line="231" selection-end-line="231" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="614" column="21" selection-start-line="614" selection-start-column="21" selection-end-line="614" selection-end-column="21" />
+        <state relative-caret-position="363">
+          <caret line="534" column="49" lean-forward="true" selection-start-line="534" selection-start-column="49" selection-end-line="534" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project/onlineOrder/onlineOrder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>

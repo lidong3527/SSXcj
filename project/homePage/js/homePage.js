@@ -330,7 +330,6 @@ $('.toReverse').click(function(event){
 });
 
 // 返回产品介绍
-
 $('.toReverse_back').click(function(event){
-    $(event.target).parent().parent().css('transform','perspective(1500px) rotateY(360deg)')
+    $(event.currentTarget).parent().parent().css('transform','perspective(1500px) rotateY(360deg)')
 });
