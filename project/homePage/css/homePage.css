@@ -558,7 +558,13 @@ body {
     transform: translateZ(-1px) rotateY(180deg);
     transform-style: preserve-3d;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     /*box-sizing: border-box;*/
+}
+.buy_li_reverse > .param_li {
+    text-align: left;
+    width: 100%;
 }
 .buy_li:hover {
 
@@ -811,14 +817,23 @@ body {
 }
 
 .about_us_right > div {
-    margin-bottom: 5px;
-    margin-left: 30px;
+    /*margin-bottom: 5px;*/
+    /*margin-left: 30px;*/
+    display: inline-block;
+    width: 49%;
+    height: 330px;
 }
 
 .about_us_img {
-    display: inline-block;
-    width: 400px;
-    height: 330px;
+    /*display: inline-block;*/
+    /*width: 49%;*/
+    /*height: 330px;*/
+    /*display:flex;*/
+    /*align-items:center;*/
+    /*justify-content:center;*/
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
 }
 
 .about_us_title {

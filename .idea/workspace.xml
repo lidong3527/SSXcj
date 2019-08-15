@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e2dd55e-4b0e-4a28-afda-e53bb5d33ea9" name="默认的" comment="">
-      <change afterPath="$PROJECT_DIR$/imgs/icon_back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/seeTime.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/imgs/toBuy.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/homePage/css/homePage.css" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/css/homePage.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/project/homePage/homePage.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/homePage.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/homePage/js/homePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/project/homePage/js/homePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/project/onlineOrder/onlineOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/project/onlineOrder/onlineOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/util/base.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,10 +19,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="445">
+              <caret line="232" column="36" lean-forward="true" selection-start-line="232" selection-start-column="36" selection-end-line="232" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/onlineOrder/onlineOrder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            <state relative-caret-position="209">
+              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="551" column="23" lean-forward="true" selection-start-line="551" selection-start-column="23" selection-end-line="551" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -35,13 +49,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>tip</find>
-      <find>buy_container</find>
-      <find>buy_body</find>
-      <find>case_box</find>
-      <find>buy_</find>
-      <find>.bg_icon2</find>
-      <find>buy_tip</find>
       <find>buy_bottom</find>
       <find>tel</find>
       <find>buy_return</find>
@@ -65,6 +72,13 @@
       <find>toOnlineOrder</find>
       <find>icon</find>
       <find>buy_li</find>
+      <find>.buy_name</find>
+      <find>.buy_money</find>
+      <find>px</find>
+      <find>about</find>
+      <find>about_us_right</find>
+      <find>about_us</find>
+      <find>be</find>
     </findStrings>
     <replaceStrings>
       <replace>查看详情</replace>
@@ -76,14 +90,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/util/base.css" />
         <option value="$PROJECT_DIR$/project/innovate/innovate.html" />
         <option value="$PROJECT_DIR$/project/history/history.html" />
         <option value="$PROJECT_DIR$/util/util.js" />
         <option value="$PROJECT_DIR$/project/homePage/js/homePage.js" />
-        <option value="$PROJECT_DIR$/project/homePage/homePage.html" />
-        <option value="$PROJECT_DIR$/project/homePage/css/homePage.css" />
         <option value="$PROJECT_DIR$/project/onlineOrder/onlineOrder.html" />
+        <option value="$PROJECT_DIR$/util/base.css" />
+        <option value="$PROJECT_DIR$/project/homePage/css/homePage.css" />
+        <option value="$PROJECT_DIR$/project/homePage/homePage.html" />
       </list>
     </option>
   </component>
@@ -159,7 +173,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/imgs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.general" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -215,12 +229,13 @@
       <workItem from="1565501722888" duration="613000" />
       <workItem from="1565614862516" duration="8004000" />
       <workItem from="1565722446016" duration="4958000" />
-      <workItem from="1565900212937" duration="5305000" />
+      <workItem from="1565900212937" duration="5884000" />
+      <workItem from="1565907163774" duration="4707000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41369000" />
+    <option name="totallyTimeSpent" value="46655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -240,7 +255,7 @@
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32960895" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.30307263" />
       <window_info anchor="bottom" id="调试" order="12" weight="0.32960895" />
       <window_info anchor="bottom" id="找到" order="13" weight="0.32960895" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -267,13 +282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/imgs/iconArray.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -291,26 +299,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
+    <entry file="file://$PROJECT_DIR$/project/onlineOrder/onlineOrder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="231" selection-start-line="231" selection-end-line="231" />
+        <state relative-caret-position="209">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project/homePage/css/homePage.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="534" column="49" lean-forward="true" selection-start-line="534" selection-start-column="49" selection-end-line="534" selection-end-column="49" />
+        <state relative-caret-position="173">
+          <caret line="551" column="23" lean-forward="true" selection-start-line="551" selection-start-column="23" selection-end-line="551" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/onlineOrder/onlineOrder.html">
+    <entry file="file://$PROJECT_DIR$/project/homePage/homePage.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state relative-caret-position="445">
+          <caret line="232" column="36" lean-forward="true" selection-start-line="232" selection-start-column="36" selection-end-line="232" selection-end-column="36" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
