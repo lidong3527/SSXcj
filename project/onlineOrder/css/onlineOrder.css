@@ -1,0 +1,160 @@
+* {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+html {
+    background: #f8f8f8;
+    -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+.container {
+    /*background: white;*/
+    width: 80%;
+    height: 600px;
+    margin: 100px auto;
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*left: 50%;*/
+    /*transform: translate(-50%, -50%);*/
+    /*height: 100%;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    box-shadow: 0px 0px 10px #999;
+}
+
+.comm_info {
+    width: 48%;
+    background: white;
+}
+
+.user_info {
+    width: 48%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 35px 20px;
+}
+
+/*三级联动*/
+
+.wrap {
+    width: 464px;
+    height: 34px;
+    /*margin: 200px auto;*/
+    /*border: 0;*/
+    position: relative;
+    display: inline-block;
+}
+.input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 457px;
+    margin: 0;
+    padding-left: 5px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 12px;
+    border: 1px solid #c9cacb;
+}
+
+s {
+    position: absolute;
+    top: 1px;
+    right: 0;
+    width: 32px;
+    height: 32px;
+    background: url("../../imgs/icon_close.png") no-repeat;
+}
+
+._citys {
+    width: 450px;
+    display: inline-block;
+    border: 2px solid #eee;
+    padding: 5px;
+    position: relative;
+}
+
+._citys span {
+    color: black;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    text-align: center;
+    border-radius: 3px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+._citys0 {
+    width: 95%;
+    height: 34px;
+    line-height: 34px;
+    display: inline-block;
+    border-bottom: 2px solid black;
+    padding: 0px 5px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 6px;
+}
+
+._citys0 li {
+    display: inline-block;
+    line-height: 34px;
+    font-size: 15px;
+    color: #888;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+}
+
+._citys1 {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+._citys1 a {
+    width: 83px;
+    height: 35px;
+    display: inline-block;
+    background-color: #f5f5f5;
+    color: #666;
+    margin-left: 6px;
+    margin-top: 3px;
+    line-height: 35px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+._citys1 a:hover {
+    color: #fff;
+    background-color: black;
+}
+
+.AreaS {
+    background-color: black !important;
+    color: #fff !important;
+}
+#cColse{
+    background: red;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: url('../../imgs/icon_close.png');
+    background-size: 100% 100%;
+}

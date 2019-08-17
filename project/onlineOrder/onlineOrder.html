@@ -3,10 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <title>在线订购</title>
+
 </head>
+<link rel="stylesheet" href="./css/onlineOrder.css">
 <body>
 <div>
-    在线订购emmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+    <div class="container">
+        <div class="comm_info">
+            <div class="title">商品信息</div>
+            <div class="leftImg">
+                <img src="../../imgs/seeTime.png" alt="">
+            </div>
+            <div class="rightText">
+                <div class="comm_name">商品名称</div>
+                <div class="comm_desc">商品描述</div>
+                <div class="comm_money">￥ 199/元</div>
+                <div class="comm_stock">商品库存</div>
+            </div>
+        </div>
+        <div class="user_info">
+            <div class="user_title">用户信息</div>
+            <div class="user_name">
+                <label for="">收货人:</label><input type="text" class="userName">
+            </div>
+            <div class="user_phone">
+                <label for="">收货人手机号:</label><input type="text" class="phone">
+            </div>
+            <div class="user_address">
+                <label for="">收获地址:</label>
+                <div class="wrap">
+                    <input class="input" name="" id="city" type="text" placeholder="省份/城市/区域" autocomplete="off" readonly="true"/>
+                </div>
+            </div>
+            <div class="user_addressDetail">
+                <label for="">详细地址:</label>
+                <input type="text" class="address">
+            </div>
+            <div class="user_pay">
+                <div>支付方式:</div>
+                <div>
+                    <input type="radio" checked>微信支付</input>
+                </div>
+            </div>
+            <div class="user_submit">
+                <button>提交订单</button>
+            </div>
+        </div>
+    </div>
 </div>
 </body>
+<script type="text/javascript" src="../../util/util.js"></script>
+<script type="text/javascript" src="../../util/jquery.js"></script>
+<script type="text/javascript" src="../../util/cityJS/Popt.js"></script>
+<script type="text/javascript" src="../../util/cityJS/city.json.js"></script>
+<script type="text/javascript" src="../../util/cityJS/citySet.js"></script>
+<script>
+    var height = getClientHeight();
+    console.log(height);
+    // 产品id
+    console.log(getUrlParam('id'));
+    $('body').css({height: height + 'px'});
+</script>
+<script type="text/javascript">
+    $("#city").click(function (e) {
+        console.dir(this,'选择input对象');
+        console.log(e);
+        SelCity(this, e);
+    });
+    $("s").click(function (e) {
+        SelCity(document.getElementById("city"), e);
+    });
+</script>
 </html>
