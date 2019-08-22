@@ -39,6 +39,10 @@
                 <label for="">详细地址:</label>
                 <input type="text" class="address">
             </div>
+            <div>
+                <label>购买数量</label>
+                <div class="wrapper"></div>
+            </div>
             <div class="user_pay">
                 <div>支付方式:</div>
                 <div>
@@ -57,12 +61,25 @@
 <script type="text/javascript" src="../../util/cityJS/Popt.js"></script>
 <script type="text/javascript" src="../../util/cityJS/city.json.js"></script>
 <script type="text/javascript" src="../../util/cityJS/citySet.js"></script>
+<script type="text/javascript" src="../../util/numberInput.js"></script>
 <script>
     var height = getClientHeight();
     console.log(height);
     // 产品id
     console.log(getUrlParam('id'));
     $('body').css({height: height + 'px'});
+    $(function() {
+        $(".wrapper").numInput({
+            width: 200, //宽度
+            positive: true, //允许输入正数
+            negative: false, //允许输入负数
+            floatCount: 0, //小数点后保留位数
+            wrapperClass: 'num-input-wrap', //最外层容器
+            inputClass: 'num-input', //input输入框
+            addClass: 'add', //增加按钮
+            subtractClass: 'subtract', //减少按钮
+        });
+    })
 </script>
 <script type="text/javascript">
     $("#city").click(function (e) {

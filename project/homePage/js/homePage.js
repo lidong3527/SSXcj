@@ -127,7 +127,7 @@ function initPage(){
     var height = getClientHeight();
     $('.introduce_body').css({height: height+'px'});
     $('.index').css({height:height+'px'});
-    $('.case_box ').css({height: height+'px'});
+    $('.case_box ').css({height: (height- 130)+'px'});
 }
 
 
