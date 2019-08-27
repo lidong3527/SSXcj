@@ -806,8 +806,8 @@ body {
     position: absolute;
     width: 295px;
     height: 85px;
-    top: 20px;
-    left: 654px;
+    bottom: -2px;
+    right: 200px;
 }
 
 .about_us_body {

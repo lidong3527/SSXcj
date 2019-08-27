@@ -49,6 +49,7 @@ html {
     /*border: 0;*/
     position: relative;
     display: inline-block;
+    transform: translateY(10px);
 }
 .input {
     position: absolute;
@@ -60,7 +61,8 @@ html {
     height: 30px;
     line-height: 30px;
     font-size: 12px;
-    border: 1px solid #c9cacb;
+    border: 1px solid #999;
+    border-radius: 5px;
 }
 
 s {
@@ -142,7 +144,38 @@ s {
     color: #fff;
     background-color: black;
 }
-
+.label{
+    margin-right: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.userName,.phone,.address{
+    width: 320px;
+    height: 25px;
+    border: 1px solid #999;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 5px;
+}
+.user_submit{
+    text-align: center;
+}
+.user_submit > button{
+    width: 150px;
+    height: 50px;
+    font-size: 19px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    background: #d51b51;
+    box-shadow: 0px 0px 3px #d51b51;
+    color: white;
+}
+.user_submit > button:hover{
+    box-shadow: 0px 0px 10px #d51b51;
+}
 .AreaS {
     background-color: black !important;
     color: #fff !important;
@@ -159,7 +192,9 @@ s {
     background-size: 100% 100%;
 }
 
-
+.wrapper{
+    display: inline-block;
+}
 
 .title{
     font-size: 30px;
