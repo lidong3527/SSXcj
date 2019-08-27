@@ -8,33 +8,6 @@ $(document).ready(function(){
 
     //切换图片下标
     var caseIndex = 0;
-    var timePic = null;
-    var mySwiper = new Swiper ('.swiper-container', {
-        // direction: 'vertical', // 垂直切换选项
-        direction: 'horizontal', // 水平切换选项
-        loop: true, // 循环模式选项
-
-        // 分页器
-        pagination: {
-            el: '.swiper-pagination',
-        },
-
-        // 前进后退按钮
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        autoplay: true,
-        delay: 3000,
-        speed: 800,
-
-        // 如果需要滚动条
-        // scrollbar: {
-        //     el: '.swiper-scrollbar',
-        // },
-    });
-
-
 
     //点击图片切换
     $(".case_right").click(function(){
