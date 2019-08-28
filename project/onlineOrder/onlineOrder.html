@@ -64,9 +64,8 @@
 <script type="text/javascript" src="../../util/numberInput.js"></script>
 <script>
     var height = getClientHeight();
-    console.log(height);
     // 产品id
-    console.log(getUrlParam('id'));
+    // console.log(getUrlParam('id'));
     $('body').css({height: height + 'px'});
     $(function() {
         $(".wrapper").numInput({
@@ -79,12 +78,8 @@
             addClass: 'add', //增加按钮
             subtractClass: 'subtract', //减少按钮
         });
-    })
-</script>
-<script type="text/javascript">
+    });
     $("#city").click(function (e) {
-        console.dir(this,'选择input对象');
-        console.log(e);
         SelCity(this, e);
     });
     $("s").click(function (e) {
