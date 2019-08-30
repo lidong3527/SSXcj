@@ -1,30 +1,11 @@
+
+//切换图片下标
+var caseIndex = 0;
 $(document).ready(function(){
 
     //初始化页面函数
     initPage();
     maqureeInit();
-    //切换图片下标
-    var caseIndex = 0;
-
-    //点击图片切换
-    $(".case_right").click(function(){
-        if(caseIndex == 0){
-            $('.case_first').fadeOut(500,function(){
-                $('.second_container').fadeIn(500);
-            });
-            caseIndex++;
-        }else if(caseIndex == 1){
-            $('.second_container').fadeOut(500,function(){
-                $('.third_container').fadeIn(500);
-            });
-            caseIndex++;
-        }else{
-            $('.third_container').fadeOut(500,function(){
-                $('.case_first').fadeIn(500);
-            });
-            caseIndex = 0;
-        }
-    });
 
     //锚点添加动画
     $(".label").bind("click touch",function(){
@@ -277,8 +258,27 @@ function maqureeInit(){
     $('#container').append(str);
     $('#container').marquee();
     timePic = setInterval(function(){
-        $(".case_right").click();
-    },2000);
+        checkImage();
+    },3000);
+}
+
+function checkImage(){
+    if(caseIndex == 0){
+        $('.case_first').fadeOut(500,function(){
+            $('.second_container').fadeIn(500);
+        });
+        caseIndex++;
+    }else if(caseIndex == 1){
+        $('.second_container').fadeOut(500,function(){
+            $('.third_container').fadeIn(500);
+        });
+        caseIndex++;
+    }else{
+        $('.third_container').fadeOut(500,function(){
+            $('.case_first').fadeIn(500);
+        });
+        caseIndex = 0;
+    }
 }
 
 

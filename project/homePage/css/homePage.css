@@ -1,6 +1,8 @@
 body {
-    margin: 0;
+    /*margin: 0;*/
     overflow-x: hidden;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 img {
     border: 0;
@@ -47,7 +49,7 @@ a {  text-decoration:none;out-line: none}
     width: 100%;
     background: url('../../../imgs/bg.png');
     background-size: 100% 100%;
-    height: 759px;
+    max-height: 960px;
     /*position: relative;*/
     position: relative;
 }
@@ -352,32 +354,9 @@ a {  text-decoration:none;out-line: none}
     padding: 0;
     border: 0;
 }
-
-/*.case_tip:before,.buy_tip:before,.tel_tip:before,.about_us_tip:before{*/
-/*    content: "";*/
-/*    width: 43%;*/
-/*    !*height: 50px;*!*/
-/*    display: inline-block;*/
-/*    border-bottom: 1px solid black;*/
-/*    margin-bottom: 5px;*/
-/*    margin-right: 50px;*/
-/*}*/
-/*.case_tip:after,.buy_tip:after,.tel_tip:after,.about_us_tip:after{*/
-/*    content: "";*/
-/*    width: 43%;*/
-/*    !*height: 50px;*!*/
-/*    !*background: red;*!*/
-/*    display: inline-block;*/
-/*    border-bottom: 1px solid black;*/
-/*    line-height: 80px;*/
-/*    margin-bottom: 5px;*/
-/*    margin-left: 50px;*/
-/*}*/
 .introduce_body {
     width: 100%;
-    /*padding: 20px;*/
-    /*background: blue;*/
-    height: 600px;
+    max-height: 960px;
     background: url('../../../imgs/introduce_bg.png');
     background-size: 100% 100%;
     position: relative;
@@ -400,7 +379,6 @@ a {  text-decoration:none;out-line: none}
 }
 
 .introduce_img:hover .introduce_shadow {
-    /*box-shadow: 1px 1px 10px black;*/
     opacity: 1;
 }
 
@@ -427,17 +405,14 @@ a {  text-decoration:none;out-line: none}
     padding-right: 20px;
     opacity: 0;
     transition: 0.5s;
-    /*column-count: auto;*/
-    /*line-height: 200px;*/
 }
 
 .case_box {
     width: 100%;
-    height: 500px;
+    max-height: 960px;
     background: #f8f8f8;
     padding: 40px 0px;
     box-sizing: border-box;
-    /*background: blue;*/
 }
 
 .bottom_padding {
@@ -448,14 +423,12 @@ a {  text-decoration:none;out-line: none}
 .case_left {
     width: 49%;
     height: 100%;
-    /*background: red;*/
     display: inline-block;
     overflow: hidden;
 }
 
 .case_desc {
     width: 80%;
-    /*background: red;*/
     border: 2px solid #ccc;
     margin: 0 auto;
     padding: 10px;
@@ -467,7 +440,6 @@ a {  text-decoration:none;out-line: none}
 .case_right {
     width: 50%;
     height: 100%;
-    /*background: yellow;*/
     display: inline-block;
     overflow: hidden;
     float: right;
@@ -502,11 +474,6 @@ a {  text-decoration:none;out-line: none}
     height: 500px;
     overflow: hidden;
 }
-
-.case_left_top {
-    /*text-align: center;*/
-}
-
 .case_li {
     width: 33%;
     display: inline-block;
@@ -523,66 +490,44 @@ a {  text-decoration:none;out-line: none}
 
 .buy_body {
     width: 100%;
-    /*height: 400px;*/
-    /*text-align: center;*/
-    /*line-height: 400px;*/
-    /*font-size: 28px;*/
-    /*font-weight: bold;*/
-    /*color: #cccccc;*/
     background: #f8f8f8;
     box-sizing: border-box;
     padding: 40px 80px;
     display: flex;
-    /*align-items:center;*/
     justify-content: space-between;
 
 }
-.buy_li_box{
-    /*position: relative;*/
-}
+
 .buy_li {
     width: 230px;
     height: 430px;
-    /*background: #000;*/
-    /*overflow: hidden;*/
     flex-wrap: wrap;
     align-items: center;
     padding: 20px;
-    /*margin-left: 10px;*/
     background: white;
     cursor: pointer;
     position: relative;
     box-shadow: 0px 0px 15px #ccc;
     z-index: 2;
     transform: perspective(1500px) rotateY(0deg);
-    /*transform: perspective(1500px) rotateY(180deg);*/
-    /*transform: rotateZ(20deg) rotateY(10deg);*/
-    /*transform: ;*/
     transform-style: preserve-3d;
     transition: 1s;
 }
 .buy_li_reverse{
     width: 230px;
     height: 430px;
-    /*background: #000;*/
-    /*overflow: hidden;*/
     flex-wrap: wrap;
     align-items: center;
     padding: 20px;
-    /*margin-left: 10px;*/
-    /*cursor: pointer;*/
     position: absolute;
     top: 0;
     left: 0;
     background: white;
-    /*box-shadow: 0px 0px 15px #ccc;*/
-    /*z-index: 1;*/
     transform: translateZ(-1px) rotateY(180deg);
     transform-style: preserve-3d;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /*box-sizing: border-box;*/
 }
 .buy_li_reverse > .param_li {
     text-align: left;
@@ -595,7 +540,6 @@ a {  text-decoration:none;out-line: none}
 .buy_name{
     font-size: 20px;
     text-align: center;
-    /*margin: 20px 0px;*/
     margin-top: 20px;
     margin-bottom: 5px;
     font-weight: bold;
@@ -632,10 +576,8 @@ a {  text-decoration:none;out-line: none}
     display: flex;
     justify-content:center;
     margin: 0 auto;
-    /*margin-top: 10px;*/
     cursor: pointer;
     box-sizing:border-box;
-    /*margin-left: 10px;*/
 
 }
 .toOnlineOrder,.toReverse_back,.toReverse{
@@ -669,7 +611,6 @@ a {  text-decoration:none;out-line: none}
     width: 50px;
     height: 50px;
     outline: none;
-    /* background: darkred; */
     box-shadow: none;
     border: 1px solid #ccc;
     color: white;
@@ -742,7 +683,6 @@ a {  text-decoration:none;out-line: none}
 }
 
 .tel_body {
-    /*margin: 0 auto;*/
     width: 30%;
     height: calc(100% - 160px);
     float: left;
@@ -751,7 +691,6 @@ a {  text-decoration:none;out-line: none}
     flex-direction: column;
     justify-content: center;
     background: #c9cabb;
-    /*transform: translateY(50%);*/
 }
 .tel_right{
     width: 70%;
@@ -796,7 +735,6 @@ a {  text-decoration:none;out-line: none}
 
 }
 .tel_nameInput:focus,.tel_phoneInput:focus,.tel_addressInput:focus{
-    /*background: red;*/
     padding: 0 30px;
 }
 .tel_submit{
@@ -848,20 +786,12 @@ a {  text-decoration:none;out-line: none}
 }
 
 .about_us_right > div {
-    /*margin-bottom: 5px;*/
-    /*margin-left: 30px;*/
     display: inline-block;
     width: 49%;
     height: 330px;
 }
 
 .about_us_img {
-    /*display: inline-block;*/
-    /*width: 49%;*/
-    /*height: 330px;*/
-    /*display:flex;*/
-    /*align-items:center;*/
-    /*justify-content:center;*/
     width: 100%;
     height: 100%;
     object-fit:cover;
