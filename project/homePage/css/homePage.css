@@ -81,12 +81,14 @@ a {  text-decoration:none;out-line: none}
     position: absolute;
     top: 210px;
     right: 265px;
+    transform: scale(1.3);
 }
 
 .bg_font2 {
     position: absolute;
     top: 160px;
-    right: -330px;
+    right: -400px;
+    transform: scale(1.3);
 }
 
 .bg_icon2 {

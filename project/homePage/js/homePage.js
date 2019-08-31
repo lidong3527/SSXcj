@@ -131,9 +131,15 @@ $(".dropdown").mouseleave(function(){
 //跳转查询订单
 function searchOrder(phone){
     if(phone == ''){
-        alert('手机号码不能为空!');
+        layer.alert('手机号码不能为空', {
+            skin: 'layui-layer-lan'
+            ,closeBtn: 0
+        });
     }else if(!(/^1[3456789]\d{9}$/.test(phone))){
-        alert('请输入正确的手机号码');
+        layer.alert('请输入正确的手机号码', {
+            skin: 'layui-layer-lan'
+            ,closeBtn: 0
+        });
     }else{
         window.open('../order/order.html?tel='+$('#tel_input').val());
     }
@@ -151,7 +157,10 @@ $('.tel_submit').click(function(){
     if(errTip == ''){
         errTip = isNotChineseChart($('.tel_phoneInput').val())?'提交成功':'手机号码不能为汉字';
     }
-    alert(errTip);
+    layer.alert(errTip, {
+        skin: 'layui-layer-lan'
+        ,closeBtn: 0
+    });
     //置空
     $('.tel_nameInput').val('');
     $('.tel_phoneInput').val('');
