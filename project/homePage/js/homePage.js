@@ -293,7 +293,8 @@ function checkImage(){
 
 //反转产品信息
 $('.toReverse').click(function(event){
-    $(event.target).parent().css('transform','perspective(1500px) rotateY(180deg)')
+    // $(event.target).parent().css('transform','perspective(1500px) rotateY(180deg)')
+    window.open('../detail/detail.html');
 });
 
 // 返回产品介绍
